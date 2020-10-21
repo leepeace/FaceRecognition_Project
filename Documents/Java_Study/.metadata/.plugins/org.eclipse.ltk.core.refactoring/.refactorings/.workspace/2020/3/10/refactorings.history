@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;db_connect&apos;" deleteContents="true" description="Delete resource &apos;db_connect&apos;" element1="/db_connect" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1583114457802"/>&#x0A;<refactoring comment="Delete resource &apos;Android-HC06-Arduino-master&apos;" deleteContents="true" description="Delete resource &apos;Android-HC06-Arduino-master&apos;" element1="/Android-HC06-Arduino-master" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1583282878240"/>
+</session>

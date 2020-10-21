@@ -1,0 +1,27 @@
+<!--사용자가 택배기사의 정보를 파악하는 페이지-->
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container my-3">
+    <div class="user">
+        <h1>Today visitors {{employee_number}}</h1>
+        <!--방문객 정보 확인-->
+        {% for list in information %}
+            <!--알 수 없는 방문객 정보 확인-->
+            {% if list.nowpeople == "unknown" %}
+                <tr> 
+                    <td>{{list.nowtime}}</td>
+                    <td> 등록되지 않은 방문객</td></br>
+                </tr>
+            <!--택배 기사 정보 확인-->    
+            {% else %}
+                <tr> 
+                    <td>{{list.nowtime}}</td>
+                    <td>{{list.nowpeople}}</td></br>
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
